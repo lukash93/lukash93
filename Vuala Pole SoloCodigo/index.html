@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset=utf-8>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Vualá Pole Studio</title>
+        <!-- Load Roboto font -->
+        <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+        <!-- Load css styles -->
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+        <link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.css" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link rel="stylesheet" type="text/css" href="css/vuala.css" />
+        <link rel="stylesheet" type="text/css" href="css/jquery.cslider.css" />
+        <link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css" />
+        <link rel="stylesheet" type="text/css" href="css/animate.css" />
+        <!-- Fav and touch icons -->
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/apple-touch-icon-72.png">
+        <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57.png">
+        <link rel="shortcut icon" href="images/ico/icon.png">
+    </head>
+    <!--Aqui estaba creando la funcion del slider para que cargara primero, pero aun asi no se ve insertando php, 
+    de hecho queria hacer eso para hacer el ingreso con ajax pero no hay caso, la animacion no se ve :/-->
+    <body onload = "javascript: crear();">
+        <div class="navbar">
+            <div class="navbar-inner">
+                <div class="container">
+                    <a href="#" class="brand">
+                        <img src="images/logo.png" width="160" height="160" alt="Logo" />
+                        <!-- This is website logo -->
+                    </a>
+                    <!-- Navigation button, visible on small resolution -->
+                    <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <i class="icon-menu"></i>
+                    </button>
+                    <!-- Main navigation -->
+                    <div class="nav-collapse collapse pull-right">
+                        <ul class="nav" id="top-navigation">
+                            <li class="active"><a href="#home">Inicio</a></li>
+                            <li><a href="#service">Servicios</a></li>
+                            <li><a href="#portfolio">Portafolio</a></li>
+                            <li><a href="#about">Sobre</a></li>
+                            <li><a href="#contact">Contacto</a></li>
+                            <li><a href="login.html">Iniciar Sesión <i class="icon-user"></i></a></li>
+                        </ul>
+                        
+                    </div>
+                    <!-- End main navigation -->
+                </div>
+            </div>
+        </div>
+        <!-- Start home section -->
+        <div id="home">
+            <!-- Start cSlider -->
+            <div id="da-slider" class="da-slider">
+                <div class="triangle"></div>
+                <!-- mask elemet use for masking background image -->
+                <div class="mask"></div>
+                <!-- All slides centred in container element -->
+                <div class="container">
+                 
+              
+                    <!-- Start first slide -->
+                    <div class="da-slide">
+                        <h2 class="fittext2">Vualá Pole</h2><!-titulo--->
+                        <h4>Lorem Ipsum</h4> <!-subtitulo--->
+                        <p>Lorem ipsum ad his scripta blandit partiendo, eum fastidii accumsan euripidis in, eum liber hendrerit an. Qui ut wisi vocibus suscipiantur, quo dicit ridens inciderint id.</p><!-text--->
+                        <div class="da-img">
+                            <img src="images/Slider01.png" alt="image01" width="320"><!-imagen--->
+                        </div>
+                    </div>
+
+                    <!-- End first slide -->
+                    <!-- Start second slide -->
+                    <div class="da-slide">
+                        <h2>Lorem</h2>
+                        <h4>Lorem Ipsum</h4>
+                        <p>Lorem ipsum ad his scripta blandit partiendo, eum fastidii accumsan euripidis in, eum liber hendrerit an. Qui ut wisi vocibus suscipiantur, quo dicit ridens inciderint id.</p>
+                        <div class="da-img">
+                            <img src="images/Slider02.png" width="320" alt="image02">
+                        </div>
+                    </div>
+                    <!-- End second slide -->
+                    <!-- Start third slide -->
+                    <div class="da-slide">
+                        <h2>Lorem</h2>
+                        <h4>Lorem Ipsum</h4>
+                        <p>Lorem ipsum ad his scripta blandit partiendo, eum fastidii accumsan euripidis in, eum liber hendrerit an. Qui ut wisi vocibus suscipiantur, quo dicit ridens inciderint id.</p>
+                        <div class="da-img">
+                            <img src="images/Slider03.png" width="320" alt="image03">
+                        </div>
+                    </div>
+                    <!-- Start third slide -->
+                    <!-- Start cSlide navigation arrows -->
+                    
+                    <!-- End cSlide navigation arrows -->
+                </div>
+            </div>
+        </div>
+        <!-- End home section -->
+        <!-- Service section start -->
+        <div class="section primary-section" id="service">
+            <div class="container">
+                <!-- Start title section -->
+                <div class="title">
+                    <h1>¿Qué es Vualá Pole?</h1>
+                    <!-- Section's title goes here -->
+                    <p><i>Somos una academia dedicada al Pole Sport en la ciudad de La Serena,
+la cual consiste en desarrollar acrobacias y trucos en una barra vertical. 
+Nos especializamos en entregar un servicio deportivo exclusivo para mujeres desde los
+13 años en adelante en donde encontrarás un espacio de recreación en el cual podrás desarrollar destreza, 
+                        fuerza y elasticidad, haciéndote sentir plena con el fin de conseguir un cuerpo y mente saludable.</i></p>
+                    <!--Simple description for section goes here. -->
+                </div>
+                <div class="row-fluid">
+                    <div class="span4">
+                        <div class="centered service">
+                            <div class="circle-border zoom-in">
+                                <img class="img-circle" src="images/caracteristica1.png" alt="service 1">
+                            </div>
+                            <h3>Niveles certificados</h3>
+                            <p>Deja que tus sueños sean mas grandes que tus miedos,¿Cuál es tu nuevo reto?.</p>
+                        </div>
+                    </div>
+                    <div class="span4">
+                        <div class="centered service">
+                            <div class="circle-border zoom-in">
+                                <img class="img-circle" src="images/caracteristica2.png" alt="service 2" />
+                            </div>
+                            <h3>Clases multinivel</h3>
+                            <p>¡Que tus propios limites no te impidan avanzar!.</p>
+                        </div>
+                    </div>
+                    <div class="span4">
+                        <div class="centered service">
+                            <div class="circle-border zoom-in">
+                                <img class="img-circle" src="images/caracteristica3.png" alt="service 3">
+                            </div>
+                            <h3>Y... ¡Mucho Pole!</h3>
+                            <p>Haz siempre de tu vida algo extraordinario.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Service section end -->
+        <!-- Portfolio section start -->
+        <div class="section secondary-section " id="portfolio">
+            <div class="triangle"></div>
+            <div class="container">
+                <div class=" title">
+                    <h1>¡Conoce nuestro Trabajo!</h1>
+                </div>
+                <ul class="nav nav-pills">
+                    <li class="filter" data-filter="all">
+                        <a href="#noAction">Todas</a>
+                    </li>
+                    <li class="filter" data-filter="web">
+                        <a href="#noAction">Eventos</a>
+                    </li>
+                    <li class="filter" data-filter="photo">
+                        <a href="#noAction">Galería</a>
+                    </li>
+                </ul>
+                <!-- Start details for portfolio project 1 -->
+                <div id="single-project">
+                    <div id="slidingDiv" class="toggleDiv row-fluid single-project">
+                        <div class="span6">
+                            <img src="images/Portfolio01.png" alt="project 1" />
+                        </div>
+                        <div class="span6">
+                            <div class="project-description">
+                                <div class="project-title clearfix">
+                                    <h3>Webste for Some Client</h3>
+                                    <span class="show_hide close">
+                                        <i class="icon-cancel"></i>
+                                    </span>
+                                </div>
+                                <div class="project-info">
+                                    <div>
+                                        <span>Fecha</span><p>July 2013</p></div>
+                                </div>
+                                <p>Believe in yourself! Have faith in your abilities! Without a humble but reasonable confidence in your own powers you cannot be successful or happy.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End details for portfolio project 1 -->
+                    <!-- Start details for portfolio project 2 -->
+                    <div id="slidingDiv1" class="toggleDiv row-fluid single-project">
+                        <div class="span6">
+                            <img src="images/Portfolio02.png" alt="project 2">
+                        </div>
+                        <div class="span6">
+                            <div class="project-description">
+                                <div class="project-title clearfix">
+                                    <h3>Webste for Some Client</h3>
+                                    <span class="show_hide close">
+                                        <i class="icon-cancel"></i>
+                                    </span>
+                                </div>
+                                <div class="project-info">
+                                    <div>
+                                        <span>Fecha</span><p>July 2013</p></div>
+                                </div>
+                                <p>Life is a song - sing it. Life is a game - play it. Life is a challenge - meet it. Life is a dream - realize it. Life is a sacrifice - offer it. Life is love - enjoy it.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End details for portfolio project 2 -->
+                    <!-- Start details for portfolio project 3 -->
+                    <div id="slidingDiv2" class="toggleDiv row-fluid single-project">
+                        <div class="span6">
+                            <img src="images/Portfolio03.png" alt="project 3">
+                        </div>
+                        <div class="span6">
+                            <div class="project-description">
+                                <div class="project-title clearfix">
+                                    <h3>Webste for Some Client</h3>
+                                    <span class="show_hide close">
+                                        <i class="icon-cancel"></i>
+                                    </span>
+                                </div>
+                                <div class="project-info">
+                                    <div>
+                                        <span>Fecha</span><p>July 2013</p></div>
+                                </div>
+                                <p>How far you go in life depends on your being tender with the young, compassionate with the aged, sympathetic with the striving and tolerant of the weak and strong. Because someday in your life you will have been all of these.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End details for portfolio project 3 -->
+                    <!-- Start details for portfolio project 4 -->
+                    <div id="slidingDiv3" class="toggleDiv row-fluid single-project">
+                        <div class="span6">
+                            <img src="images/Portfolio04.png" alt="project 4">
+                        </div>
+                        <div class="span6">
+                            <div class="project-description">
+                                <div class="project-title clearfix">
+                                    <h3>Project for Some Client</h3>
+                                    <span class="show_hide close">
+                                        <i class="icon-cancel"></i>
+                                    </span>
+                                </div>
+                                <div class="project-info">
+                                    <div>
+                                        <span>Fecha</span><p>July 2013</p></div>
+                                </div>
+                                <p>Life's but a walking shadow, a poor player, that struts and frets his hour upon the stage, and then is heard no more; it is a tale told by an idiot, full of sound and fury, signifying nothing.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End details for portfolio project 4 -->
+                    <!-- Start details for portfolio project 5 -->
+                    <div id="slidingDiv4" class="toggleDiv row-fluid single-project">
+                        <div class="span6">
+                            <img src="images/Portfolio05.png" alt="project 5">
+                        </div>
+                        <div class="span6">
+                            <div class="project-description">
+                                <div class="project-title clearfix">
+                                    <h3>Webste for Some Client</h3>
+                                    <span class="show_hide close">
+                                        <i class="icon-cancel"></i>
+                                    </span>
+                                </div>
+                                <div class="project-info">
+                                    <div>
+                                        <span>Fecha</span><p>July 2013</p></div>
+                                </div>
+                                <p>We need to give each other the space to grow, to be ourselves, to exercise our diversity. We need to give each other space so that we may both give and receive such beautiful things as ideas, openness, dignity, joy, healing, and inclusion.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End details for portfolio project 5 -->
+                    <!-- Start details for portfolio project 6 -->
+                    <div id="slidingDiv5" class="toggleDiv row-fluid single-project">
+                        <div class="span6">
+                            <img src="images/Portfolio06.png" alt="project 6">
+                        </div>
+                        <div class="span6">
+                            <div class="project-description">
+                                <div class="project-title clearfix">
+                                    <h3>Webste for Some Client</h3>
+                                    <span class="show_hide close">
+                                        <i class="icon-cancel"></i>
+                                    </span>
+                                </div>
+                                <div class="project-info">
+                                    <div>
+                                        <span>Fecha</span><p>July 2013</p></div>
+                                </div>
+                                <p>I went to the woods because I wished to live deliberately, to front only the essential facts of life, and see if I could not learn what it had to teach, and not, when I came to die, discover that I had not lived.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End details for portfolio project 6 -->
+                    <!-- Start details for portfolio project 7 -->
+                    <div id="slidingDiv6" class="toggleDiv row-fluid single-project">
+                        <div class="span6">
+                            <img src="images/Portfolio07.png" alt="project 7">
+                        </div>
+                        <div class="span6">
+                            <div class="project-description">
+                                <div class="project-title clearfix">
+                                    <h3>Webste for Some Client</h3>
+                                    <span class="show_hide close">
+                                        <i class="icon-cancel"></i>
+                                    </span>
+                                </div>
+                                <div class="project-info">
+                                    <div>
+                                        <span>Fecha</span><p>July 2013</p></div>
+                                </div>
+                                <p>Always continue the climb. It is possible for you to do whatever you choose, if you first get to know who you are and are willing to work with a power that is greater than ourselves to do it.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End details for portfolio project 7 -->
+                    <!-- Start details for portfolio project 8 -->
+                    <div id="slidingDiv7" class="toggleDiv row-fluid single-project">
+                        <div class="span6">
+                            <img src="images/Portfolio08.png" alt="project 8">
+                        </div>
+                        <div class="span6">
+                            <div class="project-description">
+                                <div class="project-title clearfix">
+                                    <h3>Webste for Some Client</h3>
+                                    <span class="show_hide close">
+                                        <i class="icon-cancel"></i>
+                                    </span>
+                                </div>
+                                <div class="project-info">
+                                    <div>
+                                        <span>Fecha</span><p>July 2013</p></div>
+                                </div>
+                                <p>What if you gave someone a gift, and they neglected to thank you for it - would you be likely to give them another? Life is the same way. In order to attract more of the blessings that life has to offer, you must truly appreciate what you already have.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End details for portfolio project 8 -->
+                    <!-- Start details for portfolio project 9 -->
+                    <div id="slidingDiv8" class="toggleDiv row-fluid single-project">
+                        <div class="span6">
+                            <img src="images/Portfolio09.png" alt="project 9">
+                        </div>
+                        <div class="span6">
+                            <div class="project-description">
+                                <div class="project-title clearfix">
+                                    <h3>Webste for Some Client</h3>
+                                    <span class="show_hide close">
+                                        <i class="icon-cancel"></i>
+                                    </span>
+                                </div>
+                                <div class="project-info">
+                                    <div>
+                                        <span>Fecha</span><p>July 2013</p></div>
+                                </div>
+                                <p>I learned that we can do anything, but we can't do everything... at least not at the same time. So think of your priorities not in terms of what activities you do, but when you do them. Timing is everything.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End details for portfolio project 9 -->
+                    <ul id="portfolio-grid" class="thumbnails row">
+                        <li class="span4 mix web">
+                            <div class="thumbnail">
+                                <img src="images/Portfolio01.png" alt="project 1">
+                                <a href="#single-project" class="more show_hide" rel="#slidingDiv">
+                                    <i class="icon-plus"></i>
+                                </a>
+                                <h3>Thumbnail label</h3>
+                                <p>Thumbnail caption...</p>
+                                <div class="mask"></div>
+                            </div>
+                        </li>
+                        <li class="span4 mix web">
+                            <div class="thumbnail">
+                                <img src="images/Portfolio02.png" alt="project 2">
+                                <a href="#single-project" class="show_hide more" rel="#slidingDiv1">
+                                    <i class="icon-plus"></i>
+                                </a>
+                                <h3>Thumbnail label</h3>
+                                <p>Thumbnail caption...</p>
+                                <div class="mask"></div>
+                            </div>
+                        </li>
+                        <li class="span4 mix web">
+                            <div class="thumbnail">
+                                <img src="images/Portfolio03.png" alt="project 3">
+                                <a href="#single-project" class="more show_hide" rel="#slidingDiv2">
+                                    <i class="icon-plus"></i>
+                                </a>
+                                <h3>Thumbnail label</h3>
+                                <p>Thumbnail caption...</p>
+                                <div class="mask"></div>
+                            </div>
+                        </li>
+                        <li class="span4 mix photo">
+                            <div class="thumbnail">
+                                <img src="images/Portfolio04.png" alt="project 4">
+                                <a href="#single-project" class="show_hide more" rel="#slidingDiv3">
+                                    <i class="icon-plus"></i>
+                                </a>
+                                <h3>Thumbnail label</h3>
+                                <p>Thumbnail caption...</p>
+                                <div class="mask"></div>
+                            </div>
+                        </li>
+                        <li class="span4 mix photo">
+                            <div class="thumbnail">
+                                <img src="images/Portfolio05.png" alt="project 5">
+                                <a href="#single-project" class="show_hide more" rel="#slidingDiv4">
+                                    <i class="icon-plus"></i>
+                                </a>
+                                <h3>Thumbnail label</h3>
+                                <p>Thumbnail caption...</p>
+                                <div class="mask"></div>
+                            </div>
+                        </li>
+                        <li class="span4 mix photo">
+                            <div class="thumbnail">
+                                <img src="images/Portfolio06.png" alt="project 6">
+                                <a href="#single-project" class="show_hide more" rel="#slidingDiv5">
+                                    <i class="icon-plus"></i>
+                                </a>
+                                <h3>Thumbnail label</h3>
+                                <p>Thumbnail caption...</p>
+                                <div class="mask"></div>
+                            </div>
+                        </li>
+                        <li class="span4 mix photo">
+                            <div class="thumbnail">
+                                <img src="images/Portfolio07.png" alt="project 7" />
+                                <a href="#single-project" class="show_hide more" rel="#slidingDiv6">
+                                    <i class="icon-plus"></i>
+                                </a>
+                                <h3>Thumbnail label</h3>
+                                <p>Thumbnail caption...</p>
+                                <div class="mask"></div>
+                            </div>
+                        </li>
+                        <li class="span4 mix photo">
+                            <div class="thumbnail">
+                                <img src="images/Portfolio08.png" alt="project 8">
+                                <a href="#single-project" class="show_hide more" rel="#slidingDiv7">
+                                    <i class="icon-plus"></i>
+                                </a>
+                                <h3>Thumbnail label</h3>
+                                <p>Thumbnail caption...</p>
+                                <div class="mask"></div>
+                            </div>
+                        </li>
+                        <li class="span4 mix photo">
+                            <div class="thumbnail">
+                                <img src="images/Portfolio09.png" alt="project 9">
+                                <a href="#single-project" class="show_hide more" rel="#slidingDiv8">
+                                    <i class="icon-plus"></i>
+                                </a>
+                                <h3>Thumbnail label</h3>
+                                <p>Thumbnail caption...</p>
+                                <div class="mask"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio section end -->
+        <!-- About us section start -->
+        <div class="section primary-section" id="about">
+            <div class="triangle"></div>
+            <div class="container">
+                <div class="title">
+                    <h1>Sobre Nosotras</h1>
+                    
+                </div>
+                <div class="row-fluid team">
+                    <div class="span4" id="first-person">
+                        <div class="thumbnail">
+                            <img src="images/Team1.png" alt="team 1">
+                            <h3>John Doe</h3>
+                            <ul class="social">
+                                <li>
+                                    <a href="">
+                                        <span class="icon-facebook-circled"></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <span class="icon-twitter-circled"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="mask">
+                                <h2>Copywriter</h2>
+                                <p>When you stop expecting people to be perfect, you can like them for who they are.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="span4" id="second-person">
+                        <div class="thumbnail">
+                            <img src="images/Team2.png" alt="team 1">
+                            <h3>John Doe</h3>
+                            <ul class="social">
+                                <li>
+                                    <a href="">
+                                        <span class="icon-facebook-circled"></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <span class="icon-twitter-circled"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="mask">
+                                <h2>Designer</h2>
+                                <p>When you stop expecting people to be perfect, you can like them for who they are.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="span4" id="third-person">
+                        <div class="thumbnail">
+                            <img src="images/Team3.png" alt="team 1">
+                            <h3>John Doe</h3>
+                            <ul class="social">
+                                <li>
+                                    <a href="">
+                                        <span class="icon-facebook-circled"></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <span class="icon-twitter-circled"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="mask">
+                                <h2>Photographer</h2>
+                                <p>When you stop expecting people to be perfect, you can like them for who they are.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-text centered">
+                    <h3>Nuestra Misión</h3>
+                    <p><i>Buscamos generar un espacio para las mujeres en donde ellas se puedan desarrollar
+y salir de la rutina diaria, con el fin de sentirse cómodas y seguras consigo mismas.</i></p>
+                    <h3>Nuestra Visión</h3>
+                    <p><i>Promover el Pole Sport para que éste llegue a ser un deporte olímpico. 
+Nuestro objetivo es lograr ser la academia más importante del norte de Chile.</i>/</p>
+                </div>
+            </div>
+        </div>
+        <!-- About us section end -->
+        
+        <!-- Contact section start -->
+        <div id="contact" class="contact">
+            <div class="section secondary-section">
+                <div class="triangle"></div>
+                <div class="container">
+                    <div class="title">
+                        <h1>Contáctanos</h1>
+                        <p>Si quieres saber más sobre nuestros precios y más informaciones, envíanos tus preguntas y te responderemos a la brevedad.</p>
+                    </div>
+                </div>
+                <div class="map-wrapper">
+                    <center>
+                        <div class="map-canvas" id="map-canvas">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d864.893253692174!2d-71.24584907081379!3d-29.876585535998863!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9691b59eb0cf63ab%3A0xdaed28bf253f3f1c!2sO&#39;Higgins+2402%2C+La+Serena%2C+Regi%C3%B3n+de+Coquimbo!5e0!3m2!1ses!2scl!4v1449274399844" width="80%" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        </div>
+                    </center>
+                </div>    
+                    <div class="container">
+                        <div class="row-fluid">
+                            <div class="span5 contact-form center">
+                                <h3>Información de Contacto</h3>
+                                <div id="successSend" class="alert alert-success invisible">
+                                    <strong>¡Bien Hecho!</strong>Su mensaje ha sido enviado.</div>
+                                <div id="errorSend" class="alert alert-error invisible">Hubo un problema.</div>
+                                <form id="contact-form" action="php/mail.php">
+                                    <div class="control-group">
+                                        <div class="controls">
+                                            <input class="span12" type="text" id="name" name="name" placeholder="Nombre: " />
+                                            <div class="error left-align" id="err-name">Por favor ingrese su nombre.</div>
+                                        </div>
+                                    </div>
+                                    <div class="control-group">
+                                        <div class="controls">
+                                            <input class="span12" type="email" name="email" id="email" placeholder="E-Mail: " />
+                                            <div class="error left-align" id="err-email">Por favor ingrese una dirección de correo valida.</div>
+                                        </div>
+                                    </div>
+                                    <div class="control-group">
+                                        <div class="controls">
+                                            <textarea class="span12" name="comment" id="comment" placeholder="Escriba aquí su comentario..."></textarea>
+                                            <div class="error left-align" id="err-comment">Por favor ingrese su comentario.</div>
+                                        </div>
+                                    </div>
+                                    <div class="control-group">
+                                        <div class="controls">
+                                            <button id="send-mail" class="message-btn" value="send">Enviar Mensaje</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                <div class="container">
+                    <div class="span9 center contact-info">
+                        <p>Calle Libertador Bernardo O´higgins 648, La Serena</p>
+                        <p class="info-mail">vualapolefitnesstudio@gmail.com</p>
+                        <p>+569 9330 3572</p>
+                        <div class="title">
+                            <h3>¡Visita Nuestras Redes Sociales!</h3>
+                        </div>
+                    </div>
+                    <div class="row-fluid centered">
+                        <ul class="social">
+                            <li>
+                                <a href="https://www.facebook.com/Vual%C3%A1-Pole-Studio-415125465349716/?fref=ts">
+                                    <img src="fonts/facebook.svg">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/vualapolestudio/">
+                                    <img src="fonts/instagram.svg">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Contact section edn -->
+        <!-- Footer section start -->
+        <div class="footer">
+            <p>&copy; 2015 Diseños Inacap , Todos los derechos reservados.</p>
+        </div>
+        <!-- Footer section end -->
+        <!-- ScrollUp button start -->
+        <div class="scrollup">
+            <a href="#">
+                <i class="icon-up-open"></i>
+            </a>
+        </div>
+        <!-- ScrollUp button end -->
+        <!-- Include javascript -->
+        <script src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/jquery.mixitup.js"></script>
+        <script type="text/javascript" src="js/bootstrap.js"></script>
+        <script type="text/javascript" src="js/modernizr.custom.js"></script>
+        <script type="text/javascript" src="js/jquery.bxslider.js"></script>
+        <script type="text/javascript" src="js/jquery.cslider.js"></script>
+        <script type="text/javascript" src="js/jquery.placeholder.js"></script>
+        <script type="text/javascript" src="js/jquery.inview.js"></script>
+        <!-- css3-mediaqueries.js for IE8 or older -->
+        <!--[if lt IE 9]>
+            <script src="js/respond.min.js"></script>
+        <![endif]-->
+        <script type="text/javascript" src="js/app.js"></script>
+    </body>
+</html>
+<!--Aqui estaba tratando de insertar los div del slider, onda para que no me cortara la animacion por el php-->
+<script language="javascript">
+    function crear()
+    {
+        var divFlechas = document.createElement("div");
+        divFlechas.className = 'da-arrows';
+        divFlechas.id = 'divFlechas';
+        
+        var span1 = document.createElement("span");
+        span1.className = 'da-arrows-pre';
+        
+        divFlechas.appendChild(span1);
+        
+        var span2 = document.createElement("span");
+        span2.className = 'da-arrows-next';
+        
+        divFlechas.appendChild(span2);
+        
+        document.getElementById("conten").appendChild(divFlechas);
+        
+    }
+</script>
